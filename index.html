@@ -2,17 +2,120 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<title>Whim Kitchen</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Vibur&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<div id="coming-soon" class="centered">
-	<h1>Whim Kitchen</h1>
-	<p>Coming soon!</p>
-	<p>(inside of <a href="http://www.littlebeastbrewing.com">Little Beast Brewing Beer Garden</a>)</p>
+<!-- Header & Nav -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+	<div class="logo-container">
+	    <a class="navbar-brand" href="#">
+  		    <img class="logo" src="img/logo_neon_sm.png">
+    	</a>
+    </div>
+    <!-- Collapsible Menu -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://little-beast-brewing-llc.square.site/"target="_blank">Order Online</a>
+            </li>
+            <li class="nav-item">
+    		    <a class="nav-link" href="assets/menu_v3.7lockdown.pdf" target="_blank">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+        </ul>	
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container-fluid">
+
+	<!-- Intro Row -->
+	<div class="row align-items-center top-row">
+		<!-- Intro -->
+		<div class="col-md-6 panel left-panel">
+			<div class="panel-contents">
+				<h1>Who We Are</h1>
+				<p><strong>Whim Kitchen</strong> is a permanent pop-up working out of <a class="lbb-link" href="http://www.littlebeastbrewing.com">Little Beast Brewing Beer Garden</a> on SE Division St..  We take pride in our commitment to creating and preparing our menu items using seasonal ingredients sourced from local purveyors.  Neighborhood farmers markets help inspire and shape our menu, which leads to an ever-changing approach here at Whim Kitchen.  We make most of our menu in-house from dressings and pickles, to our smoked meats and the bread for our baked-to-order sandos.</p>
+			</div>
+		</div>
+		<!-- Picture -->
+		<div class="col-md-6 panel right-panel">
+			<div class="img-container panel-contents">
+				<img src="img/lbb.jpg">
+			</div>
+		</div>
+	</div>
+
+	<!-- Button Row -->
+	<div class="row align-items-center button-row">
+		<!-- Menu -->
+		<div class="col-md-6 panel left-panel">
+			<div id="view-menu" class="panel-contents">
+				<h1>
+					<a href="assets/menu_v3.7lockdown.pdf" target="_blank">View Our Menu</a>
+				</h1>
+			</div>
+		</div>
+
+		<!-- Order Now -->
+		<div class="col-md-6 panel right-panel">
+			<div id="order-now" class="panel-contents">
+				<a href="https://little-beast-brewing-llc.square.site/">
+					<h1 class="order-link">Order Online</h1>
+				</a>
+				<p class="description">through Little Beast Brewing</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact/Map row -->
+	<div class="row align-items-center">
+		<div class="col-md-6 panel left-panel">
+			<!-- Contact Us -->
+			<div id="contact-us" class="panel-contents">
+				<a id="contact-us"></a>
+				<h1>Find Us</h1>
+				<ul>
+					<li><em>Location</em>:  3412 SE Division St, Portland, Oregon, 97202</br>(inside of <a href="http://www.littlebeastbrewing.com">Little Beast Brewing Beer Garden</a>)</li>
+					<li><em>Email</em>: <a href="mailto:info@whimkitchenpdx.com">info@whimkitchenpdx.com</a></li>
+					<li><em>Instagram</em>: <a href="https://www.instagram.com/whimkitchenpdx/">#whimkitchenpdx</a></li>
+					<li><em>Phone</em>:  480-580-9440</li>
+					<li>We do our best to answer our phone, but we're also cooking!</br>If we don't answer and you have questions,</br>we can also be reached at Little Beast's phone number:  503-208-2723</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Google Map -->
+		<div class="col-md-6 panel right-panel">
+			<div id="google-map" class="panel-contents">
+				<div class="img-container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.275254431358!2d-122.63139308448353!3d45.5045373791015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a0863c917d09%3A0x6645381d4be53bd2!2s3412%20SE%20Division%20St%2C%20Portland%2C%20OR%2097202!5e0!3m2!1sen!2sus!4v1595289720852!5m2!1sen!2sus" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
