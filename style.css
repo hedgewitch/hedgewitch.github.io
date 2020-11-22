@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Clip";
-    src: url(fonts/clip.tff) format('truetype');
-    src: url(fonts/clip.woff) format('woff'),
-    	 url(fonts/clip.woff2) format('woff2');
+    src: url(assets/fonts/clip.tff) format('truetype');
+    src: url(assets/fonts/clip.woff) format('woff'),
+    	 url(assets/fonts/clip.woff2) format('woff2');
 }
 
 body {
