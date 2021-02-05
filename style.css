@@ -111,6 +111,21 @@ img {
 	height: 100%;
 }
 
+.valentines-day {
+	color: #a846aa;
+	margin-bottom: -40vh;
+}
+
+.valentines-day h1 {
+	font-size: 5em;
+	font-family: cursive;
+}
+
+.valentines-day p {
+	color: black;
+}
+
+
 .neon {
 	/*color: var(--mid_purple) !important;*/
     color: #f499f5;
