@@ -113,16 +113,23 @@ img {
 
 .valentines-day {
 	color: #a846aa;
+	margin-top: 5vh;
 	margin-bottom: -40vh;
 }
 
 .valentines-day h1 {
 	font-size: 5em;
-	font-family: cursive;
+	font-family: 'Brush Script MT', cursive;
+	font-weight: normal;
 }
 
 .valentines-day p {
 	color: black;
+}
+
+.valentines-strikeout {
+	text-decoration: line-through;
+	text-decoration-thickness: 0.05em;
 }
 
 .neon {
