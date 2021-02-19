@@ -123,13 +123,17 @@ img {
 	font-weight: normal;
 }
 
+.valentines-strikeout {
+	text-decoration: line-through;
+	text-decoration-thickness: 0.05em;
+}
+
 .valentines-day p {
 	color: black;
 }
 
-.valentines-strikeout {
-	text-decoration: line-through;
-	text-decoration-thickness: 0.05em;
+.valentines-date {
+	font-size: 2.2em;
 }
 
 .neon {
@@ -195,6 +199,10 @@ img {
 	.valentines-day {
 		margin-top: -25vh;
 	}
+
+	.valentines-day h1 {
+		font-size: 4em;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
@@ -215,7 +223,7 @@ img {
 	}
 
 	.valentines-day {
-		margin-top: -25vh;
+		margin-top: -28vh;
 	}
 
 	.valentines-day h1 {
@@ -224,6 +232,11 @@ img {
 
 	.valentines-day h2 {
 		font-size: 2em;
+	}
+
+	.valentines-date {
+		font-size: 1.8em;
+		margin-top: -3vh;
 	}
 
 }
