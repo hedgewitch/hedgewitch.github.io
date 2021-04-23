@@ -111,6 +111,27 @@ img {
 	height: 100%;
 }
 
+.valentines-day {
+	color: #a846aa;
+	margin-top: 5vh;
+	margin-bottom: -40vh;
+}
+
+.valentines-day h1 {
+	font-size: 5em;
+	font-family: 'Brush Script MT', cursive;
+	font-weight: normal;
+}
+
+.valentines-day p {
+	color: black;
+}
+
+.valentines-bold {
+	font-weight: bold;
+}
+
+
 .neon {
 	/*color: var(--mid_purple) !important;*/
     color: #f499f5;
@@ -171,6 +192,14 @@ img {
 		width: 90vw;
 	}
 
+	.valentines-day {
+		margin-top: 12vh;
+	}
+
+	.valentines-day h1 {
+		font-size: 4em;
+	}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
@@ -188,6 +217,14 @@ img {
 
 	h1 {
 		font-size: 3em;
+	}
+
+	.valentines-day h1 {
+		font-size: 3em;
+	}
+
+	.valentines-day h2 {
+		font-size: 2em;
 	}
 
 }
