@@ -111,30 +111,6 @@ img {
 	height: 100%;
 }
 
-.valentines-day {
-	color: #a846aa;
-	margin-top: 5vh;
-	margin-bottom: -40vh;
-}
-
-.valentines-day img {
-	width: 80%	;
-}
-
-.valentines-day h1 {
-	font-size: 5em;
-	font-family: 'Brush Script MT', cursive;
-	font-weight: normal;
-}
-
-.valentines-day p {
-	color: black;
-}
-
-.valentines-bold {
-	font-weight: bold;
-}
-
 
 .neon {
 	/*color: var(--mid_purple) !important;*/
@@ -195,22 +171,6 @@ img {
 	.img-container {
 		width: 90vw;
 	}
-
-	.valentines-day {
-		margin-top: 12vh;
-	}
-
-	.valentines-day img {
-		width: 58%;
-	}
-
-	.valentines-day h1 {
-		font-size: 4em;
-	}
-
-	.valentines-day .panel-contents {
-		transform: translate(0, -72%);
-	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
@@ -228,25 +188,5 @@ img {
 
 	h1 {
 		font-size: 3em;
-	}
-
-	.valentines-day h1 {
-		font-size: 3em;
-	}
-
-	.valentines-day h2 {
-		font-size: 2em;
-	}
-
-	.valentines-day img {
-		width: 100%;
-	}
-
-	.valentines-day .panel-contents {
-		transform: translate(0, -85%);
-	}
-	
-	.valentines-day .left-panel {
-		margin-top: 10vh;
 	}
 }
